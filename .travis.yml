@@ -5,7 +5,5 @@ python:
 services:
   - docker
  
-before_script: pip install docker-compose
- 
 script:  
- -docker-compose run app sha -c "python test_sample.py" 
+ -python test_sample.py
