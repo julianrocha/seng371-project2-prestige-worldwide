@@ -4,7 +4,7 @@ MAINTAINER Prestige Worldwide
 ENV PYTHONUNBUFFERED 1
 
 COPY ./requirements.txt /requirements.txt
-RUN pip instal python -r /requirements.txt
+RUN pip install python -r /requirements.txt
 
 RUN mkdir /app
 WORKDIR /app
