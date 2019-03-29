@@ -6,4 +6,4 @@ services:
   - docker
  
 script:  
- -python test_sample.py
+ - python app/test_sample.py
