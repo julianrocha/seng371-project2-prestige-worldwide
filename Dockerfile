@@ -1,14 +1,11 @@
-FROM python:3.7-alpine
+FROM python:3
 MAINTAINER Prestige Worldwide
 
 ENV PYTHONUNBUFFERED 1
 
+ADD app/samply.py /
+
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
-RUN mkdir /app
-WORKDIR /app
-COPY ./app /app
-
-RUN adduser -D user
-USER user
+CMD [ "python", "./sample.py"]
