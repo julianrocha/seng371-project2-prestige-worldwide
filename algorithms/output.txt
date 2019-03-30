@@ -1,0 +1,48 @@
+ImageWidth:4032
+ImageLength:3024
+ResolutionUnit:2
+ExifOffset:302
+ImageDescription:Maker:0x4c,Date:2017-10-14,Ver:4,Lens:Kan03,Act:Lar01,E-Y
+Make:Google
+Model:Pixel 2 XL
+Software:HDR+ 1.0.191678339z
+Orientation:1
+DateTime:2018:04:27 09:21:38
+YCbCrPositioning:1
+XResolution:(72, 1)
+YResolution:(72, 1)
+ExifVersion:b'0220'
+ComponentsConfiguration:b'\x01\x02\x03\x00'
+ShutterSpeedValue:(951, 100)
+DateTimeOriginal:2018:04:27 09:21:38
+DateTimeDigitized:2018:04:27 09:21:38
+ApertureValue:(170, 100)
+BrightnessValue:(718, 100)
+ExposureBiasValue:(0, 6)
+MaxApertureValue:(170, 100)
+SubjectDistance:(3309, 1000)
+MeteringMode:2
+Flash:16
+FocalLength:(4459, 1000)
+ColorSpace:1
+ExifImageWidth:4032
+SceneCaptureType:0
+SubsecTime:234892
+SubsecTimeOriginal:234892
+SubsecTimeDigitized:234892
+ExifImageHeight:3024
+SubjectDistanceRange:3
+SensingMethod:2
+ExposureTime:(1368, 1000000)
+ExifInteroperabilityOffset:21154
+FNumber:(180, 100)
+SceneType:b'\x01'
+ExposureProgram:2
+CustomRendered:1
+ISOSpeedRatings:51
+ExposureMode:0
+FlashPixVersion:b'0100'
+WhiteBalance:0
+DigitalZoomRatio:(0, 1)
+FocalLengthIn35mmFilm:27
+Contrast:0
