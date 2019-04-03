@@ -2,7 +2,7 @@ from PIL import Image, ImageFilter
 from PIL.ExifTags import TAGS
 
 # Read image
-im = Image.open( 'china_image.jpg' )
+im = Image.open( './app/china_image.jpg' )
 
 # Apply multiple filters to the image
 im_edited = im.filter(ImageFilter.SHARPEN)
