@@ -7,11 +7,12 @@ python:
 services:
   - docker
 env:
-  - USERNAME = earthdatastore
-  - PASSWORD = earthdatastore123
-  - BRANCH = eds-byoa
+ global:
+   - USERNAME = earthdatastore
+   - PASSWORD = earthdatastore123
+   - BRANCH = eds-byoa
   
-script:  
+script:   
  - docker build -t "$USERNAME"/"$BRANCH" .
  - docker run earthdatastore/eds-byoa
 
