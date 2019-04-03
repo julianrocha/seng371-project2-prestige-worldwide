@@ -9,8 +9,17 @@ services:
 
 script:  
  - docker build -t earthdatastore/eds-byoa .
- - docker push earthdatastore/eds-byoa:latest
+ - docker run earthdatastore/eds-byoa
 
 after_script:
 - docker images
+
+before_deploy:
+ - docker login -u "earthdatastore" -p "earthdatastore123"
+ 
+ deploy:
+  provider: script
+  script: docker push earthdatastore/eds-byoa:latest
+  on:
+   branch: master
 
