@@ -9,8 +9,7 @@ services:
 
 script:  
  - docker build -t earthdatastore/eds-byoa .
- - docker push earthdatastore/eds-byoa:myimage
- - docker run myimage
+ - docker push earthdatastore/eds-byoa:latest
 
 after_script:
 - docker images
