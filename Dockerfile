@@ -3,7 +3,7 @@ MAINTAINER Prestige Worldwide
 
 ENV PYTHONUNBUFFERED 1
 
-COPY ./app/samply.py /app/sample.py
+COPY ./app/sample.py /app/sample.py
 
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
