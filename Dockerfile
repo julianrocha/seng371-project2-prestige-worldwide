@@ -8,5 +8,4 @@ ADD app/sample.py/
 COPY ./requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
-CMD [ "cd", "app"]
-CMD [ "python", "sample.py"]
+CMD [ "python", "/app/sample.py"]
