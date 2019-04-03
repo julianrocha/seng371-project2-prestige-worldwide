@@ -9,7 +9,7 @@ services:
 env:
   - USERNAME = earthdatastore
   - PASSWORD = earthdatastore123
-  - BRANCH = edsbyoa
+  - BRANCH = eds-byoa
   
 script:  
  - docker build -t $USERNAME/$BRANCH .
