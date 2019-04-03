@@ -12,7 +12,7 @@ env:
   - BRANCH = eds-byoa
   
 script:  
- - docker build -t $USERNAME/$BRANCH .
+ - docker build -t "$USERNAME"/"$BRANCH" .
  - docker run earthdatastore/eds-byoa
 
 after_script:
