@@ -17,10 +17,10 @@ after_script:
 before_deploy:
  - docker login -u "earthdatastore" -p "earthdatastore123"
  
- deploy:
-  provider: script
-  script: docker push earthdatastore/eds-byoa:latest
-  on:
-   branch: master
+deploy:
+ provider: script
+ script: docker push earthdatastore/eds-byoa:latest
+ on:
+  branch: master
 
  
