@@ -12,7 +12,7 @@ script:
  - docker run earthdatastore/eds-byoa
 
 after_script:
-- docker images
+ - docker images
 
 before_deploy:
  - docker login -u "earthdatastore" -p "earthdatastore123"
