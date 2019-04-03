@@ -8,13 +8,13 @@ services:
   - docker
 env:
  global:
-   - USERNAME = "earthdatastore"
-   - PASSWORD = "earthdatastore123"
-   - BRANCH = "eds-byoa"
-   - PATH = "earthdatastore/eds-byoa"
+   - USERNAME="earthdatastore"
+   - PASSWORD="earthdatastore123"
+   - BRANCH="eds-byoa"
+   - PATH="earthdatastore/eds-byoa"
   
 script:   
- - docker build -t '$PATH' .
+ - docker build -t "$PATH" .
  - docker run earthdatastore/eds-byoa
 
 after_script:
