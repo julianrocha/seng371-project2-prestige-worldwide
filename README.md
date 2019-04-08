@@ -6,3 +6,5 @@ This repository contains all work completed by Prestige Worldwide for SENG 371 P
 Low Fidelity UI Mockups - https://balsamiq.cloud/syn2rte/pmpo22d/rE9A2
 
 Travis: https://travis-ci.org/julianrocha/seng371-project2-prestige-worldwide/builds/517445911
+
+Dockerhub Repo: https://cloud.docker.com/u/earthdatastore/repository/docker/earthdatastore/eds-byoa
