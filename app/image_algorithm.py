@@ -1,7 +1,7 @@
 from PIL import Image, ImageFilter
 from PIL.ExifTags import TAGS
 
-# Read image
+# Read image Software is COOl!!
 im = Image.open( './app/china_image.jpg' )
 
 # Apply multiple filters to the image
