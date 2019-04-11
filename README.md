@@ -15,4 +15,4 @@ Docker Hub Repo:https://hub.docker.com/r/earthdatastore/eds-byoa/tags
 
 Low Fidelity UI Mockups: https://balsamiq.cloud/syn2rte/pmpo22d/rE9A2
 
-High Fidelity UI Mockups: https://github.com/julianrocha/seng371-project2-prestige-worldwide/tree/master/mockup
+High Fidelity UI Mockups: https://github.com/julianrocha/seng371-project2-prestige-worldwide/tree/master/Mockup
